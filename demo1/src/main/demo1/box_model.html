@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>used box model</title>
+
+</head>
+<style>
+  .boxmodel {
+    margin: 0 auto;
+    width: 800px;
+    border: 10px;
+    padding: 10px;
+    border-color: chartreuse aqua black pink;
+    border-style: solid;
+  }
+  .boxmodel p{
+      border: 3px dotted darkred;
+      padding:10px;
+  }
+  #boxmodel1 {
+      margin-bottom: 20px;
+  }
+  #boxmodel2 {
+      margin-bottom: 50px;
+  }
+  #boxmodel3 {
+      margin-inside: 115px;
+  }
+</style>
+<body>
+<div class="boxmodel">
+  <p id="boxmodel1"> mo hinh trong CSS
+  nó bao gồm lề (margin) viền (bỏder) phần đệm (padding)</p>
+  <p id="boxmodel2"> Mô hình hộp bao gồm lề margin viền border</p>
+  <p id="boxmodel3">  Mô hình hộp bao gồm lề margin viền border</p>
+</div>
+
+</body>
+</html>
